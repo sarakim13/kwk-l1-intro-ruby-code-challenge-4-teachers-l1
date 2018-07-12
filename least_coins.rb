@@ -27,3 +27,11 @@ end
 puts least_coins(29)
 
 
+# while cents >=1 
+#   coins[:pennies] +=1
+#   cents -= 1
+# end
+# return coins
+# end
+
+# puts least_coins(64)
