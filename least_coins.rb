@@ -1,7 +1,4 @@
 #write out your code here
-
-
-
 def least_coins(cents)
   coins = {:quarters => 0,
     :dimes => 0,
@@ -12,14 +9,17 @@ def least_coins(cents)
     coins[:quarters] += 1
     cents -= 25
   end
+  
   while cents>=10
     coins[:dimes] += 1
     cents -= 10
   end
+  
   while cents>=5
     coins[:nickels] += 1
     cents -= 5
   end
+  
   coins[:pennies] = cents
   return coins
 end
