@@ -25,7 +25,7 @@ def least_coins(cents)
 end
 
 puts least_coins(29)
-
+puts least_coins(178)
 
 # while cents >=1 
 #   coins[:pennies] +=1
